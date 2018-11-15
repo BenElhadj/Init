@@ -1,0 +1,4 @@
+l’adresse IP du serveurDNS qu'on utilise se trouve dans le fichier resolv.conf, qui se trouve dans le dossier etc
+pour recuperer le path on peut taper la commande suivante :
+ls -la /etc/resolv.conf | cut -d " " -f 15
+Path: /etc/resolv.conf qui point vers /var/run/resolv.conf

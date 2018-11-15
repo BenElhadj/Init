@@ -1,0 +1,1 @@
+on peut ouvrir la fichier ou on trouve le cles RSA qui autorise la connexion via SSH avec cette commande sudo cat ~/.ssh/authorized_keys

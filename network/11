@@ -1,0 +1,3 @@
+grace a la commande :
+traceroute -Iw 1 slash16.org | grep " nat"
+on peut voir sur la derniere ligne  le nom du matériel qui fait le lien entre notre réseau local et l’extérieur est nat-1 et son adresse IP est 10.60.1.11

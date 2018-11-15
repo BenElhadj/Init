@@ -1,0 +1,7 @@
+# le fichier ~/updater.sh doit contenir cette commande afin de faire la mise a jour :
+
+apt-get update &> /var/log/update_script.liog && apt-get upgrade -y &> /var/log/update_script.log
+
+# /etc/crontab contient cette ligne :
+
+00 04 * * 1 root sh ~/updater.sh
